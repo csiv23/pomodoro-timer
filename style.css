@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fafafa;
+}
+
+#mainstopwatch {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 100px auto;
+    padding: 60px 50px 10px;
+    text-align: center;
+    font-size: 40px;
+    background: #e0e0e0;
+    background: #e0e0e0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainstopwatch span {
+    background: #c7e0f8;
+    color: #0776de;
+    padding: 10px;
+    width: fit-content;
+    margin: 3px;
+    display: inline-block;
+    background: #e0e0e0;
+    font-size: 200px;
+}
+
+#mainstopwatch button {
+    font-size: 53px;
+    border: none;
+    background-color: #2e80b3;
+    color: white;
+    width: 200px;
+    height: 80px;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+
+#mainstopwatch button:hover {
+    background: #333;
+    color: #e0e0e0;
+    transition: 0.2s;
+}
